@@ -135,7 +135,7 @@ body{
     padding-left:5rem;
     padding-right:5rem;
     border-radius: 5rem;
-    box-shadow: .5rem 2.5rem 4rem rgba(0,0,0, .4);
+    box-shadow: .6rem 2.5rem 4rem rgba(0,0,0, .4);
 }
 .btn-purple:hover{
     box-shadow: 2.3rem 5rem 4rem rgba(0,0,0, .4);
