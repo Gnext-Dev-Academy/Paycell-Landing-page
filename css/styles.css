@@ -1,0 +1,370 @@
+*,
+::after,
+::before{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    color:#eee;
+}
+
+.header{
+    height:130vh;
+    background-image: url("../img/hero/topographic-map-background-concept-space-your-copy-topography-lines-art-contour-mountain-hiking-trail-shape-vector-design-77068334\ 1.png");
+    position: relative;
+}
+
+.logobox{
+    position: absolute;
+    top:-2%;
+    left:1%;
+}
+
+.logo{
+    height:16rem;
+}
+
+.navbar{
+    position: absolute;
+    top:7%; 
+    left:50%;
+}
+
+.nav-ul{
+    list-style-type: none;
+}
+
+.nav-li{
+    display: inline-block;
+}
+
+.navlink{
+    text-decoration: none;
+    padding:2rem;
+    letter-spacing: .3rem;
+    color:#662d91;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.u-purple-extra{
+    text-decoration: none;
+    padding:1.5rem;
+    color:#fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    background-color: #662d91;
+    border-radius: 5rem;
+}
+.u-purple-extra:hover{
+    background-color: #fff;
+    color:#662d91;
+}
+.navlink::before{
+    content: "";
+    display: inline-block;
+    background-color: #662d91;
+    height:0;
+    width:3%;
+    position: absolute;
+    left:-.1rem;
+}
+
+.navlink::after{
+    content: "";
+    display: inline-block;
+    background-color:#662d91;
+    height:0;
+    width:3%;
+    position: absolute;
+}
+
+.navlink:hover::before{
+    height:2rem;
+    transition: all .3s;
+}
+.navlink:hover::after{
+    height:2rem;
+    transition: all .5s;
+    transition-delay: .2s;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+}
+.head-text{
+    color:#000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    margin:5rem;
+    margin-top:10rem;
+    animation-name: movefromtop;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-timing-function: ease-out;
+}
+.head-image{
+    margin-top:10rem;
+}
+.head-image--1{
+    width:100%;
+}
+
+.btn-purple{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #662d91;
+    padding:1.5rem;
+    padding-left:5rem;
+    padding-right:5rem;
+    border-radius: 5rem;
+    box-shadow: .5rem 2.5rem 4rem rgba(0,0,0, .4);
+}
+.btn-purple:hover{
+    box-shadow: 2rem 5rem 4rem rgba(0,0,0, .4);
+   
+}
+
+.header-iconbox{
+    display: flex;
+    justify-content: center;
+}
+.icon-1{
+    font-size: 6rem;
+    color:#662d91;
+}
+
+.section-features{
+    background-color: #662d91;
+    padding: 25rem 0;
+    position: relative;
+}
+
+.section-features__text{
+    position: absolute;
+    top:13%;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.section-features__text::after{
+    content: "";
+    display: block;
+    width:60%;
+    margin:0 auto;
+    border-bottom: 1px solid #fff;
+    padding-top:1.3rem;
+}
+.u-center-text{
+    text-align: center;
+    padding-top: .3rem;
+}
+
+.section-features__itembox1{
+    margin-left:8rem;
+}
+
+.section-features__itembox2{
+    margin-left:8rem;
+}
+
+.item-head{
+    font-size: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-paragraph{
+    font-size: 1.4rem;
+    padding:2rem;
+    padding-right: 10rem;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-whyus{
+    background-color: #fff;
+    padding: 20rem 0;
+    position: relative; 
+}
+
+.section-whyus-text{
+    color:#000;
+    position: absolute;
+    top:7%;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.section-whyus-text::after{
+    content: "";
+    display: block;
+    width:60%;
+    margin:0 auto;
+    border-bottom: 1rem solid #d7d7d7;
+    padding-top:1.3rem;
+}
+.section-whyus__item--image{
+    width:100%;
+}
+.item--2{
+    align-self: center;
+}
+
+.item--2-text{
+    color:#000;
+    font-size: 1.9rem;
+    font-family: 'Roboto', sans-serif;
+    padding:4rem;
+}
+.text-num{
+    background-color: #662d91;
+    border-radius: 100%;
+    padding:1rem;
+    margin: 2rem;
+}
+.footer{
+    background-color: #c4c4c4;
+    padding: 15rem 0;
+    position: relative;
+}
+
+.footer-text{
+    text-align: center;
+    color:#000;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-purple2{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #662d91;
+    padding:1.5rem;
+    padding-left:5rem;
+    padding-right:5rem;
+    border-radius: 5rem;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translateX(-50%);
+    box-shadow: .5rem 2.5rem 4rem rgba(0,0,0, .4);
+}
+.btn-purple2:hover{
+    box-shadow: .5rem 4rem 4rem rgba(0,0,0, .4);
+   
+}
+
+
+@keyframes movefromtop{
+    0%{
+        opacity:0;
+        transform: translateY(-20rem);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes movefromleft{
+    0%{
+        opacity:0;
+        transform: translateX(-20rem);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:990px){
+    .hero{
+        display:flex;
+    }
+    .head-text{
+        position: relative;
+        top:10rem;
+        margin-left:12rem;
+        margin-right:10rem;
+        font-size: 2rem;
+    }
+    
+    .btn-purple{
+        display: inline-block;
+        margin-top:1rem;
+    }
+    .head-image--1{
+        display: none;
+    }
+    .header-iconbox{
+        display: none;
+    }
+
+    .text-num{
+        display: inline-block;
+        margin-top: -5rem;
+    }
+}
+
+@media(min-width:768px){
+    .section-features__itembox1{
+        display:flex;
+        justify-content: space-between;
+        margin:0 7rem;
+        margin-bottom: 13rem;
+    }
+    
+    .section-features__itembox2{
+        display:flex;
+        justify-content: space-around;
+        margin:0 25rem;
+    }
+
+    .section-whyus__item{
+        display:flex;
+    }
+
+}
